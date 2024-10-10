@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import "./App.css";
 import Button from '@mui/material/Button';
-import TextField from '@mui/material/Button';
+
 
 
 function App() {
@@ -92,7 +92,8 @@ function App() {
                 />
               </td>
               <td>
-                <button variant="contained"  data-id={user.id} onClick={deleteUser}>Delete</button>
+                
+                <button variant="contained" data-id={user.id} onClick={deleteUser}>Delete</button>
               </td>
             </tr>
           ))}
